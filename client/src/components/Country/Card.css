@@ -1,0 +1,11 @@
+.card {
+  padding: 20px;
+  margin: 50px 40px;
+  width: 20rem;
+  background-color: rgba(10, 28, 240, 0.7);
+
+}
+
+.card h3 {
+  color: white;
+}

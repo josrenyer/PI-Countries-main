@@ -1,0 +1,46 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.inicio{
+	background-image: url(../Imagen/fondo1.jpg);
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.centrar{
+	font-family: cursive;
+}
+
+.centrar h1{
+	padding: 290px;
+	font-size: 50px;
+	padding-bottom: 40px;
+	color: #13259C;
+}
+
+.centrar button{
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #CACDE1;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	color: #13259C;
+}
+
+.centrar button:hover{
+transform: translateY(-5px);
+}
+
+/*
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-attachment: fixed;
+  	background-position: bottom center;
+*/
