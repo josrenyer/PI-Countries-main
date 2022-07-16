@@ -1,0 +1,13 @@
+footer{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(250, 250, 250, 0.5);
+}
+
+.fo ul{
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	align-items: center;
+}

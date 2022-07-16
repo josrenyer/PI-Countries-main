@@ -1,0 +1,33 @@
+.CardDetail{
+	background-image: url(../Imagen/fondoDetalle.png);
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 100vh;
+	background-position: center;
+	position: relative;
+	padding-bottom: 60px;
+}
+
+.CardContenido{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 80%;
+	margin: 5px auto;
+	padding-top: 20px;
+	background-color: rgba(250, 250, 250, 0.5);
+}
+
+.CardText{
+	margin: 20px 20px;
+}
+
+.CardText h2{
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+.CardContenidoImg{
+	margin: 20px 20px;
+	padding-top: 10px;
+}

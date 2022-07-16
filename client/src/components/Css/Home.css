@@ -1,0 +1,9 @@
+.Home{
+	background-image: url(../Imagen/fondoPuente.png);
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 100vh;
+	background-position: center;
+	position: relative;
+	padding-bottom: 60px;
+}

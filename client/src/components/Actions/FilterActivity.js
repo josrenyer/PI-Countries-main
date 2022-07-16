@@ -12,17 +12,17 @@ export default function FilterA(){
 		dispatch(getActivity())
 	},[dispatch])
 
-
     function handel(e){
 		e.preventDefault()
 		dispatch(filterActitivy(e.target.value))
 	}
+
 	return (
 		<select onChange={e=>handel(e)} className="filtroactividad">
 		<option value="all">Filter Activity</option>
 		{
 			allActivities.map((e)=>(
-				<option key={e.id} value={e.name}>{e.name}</option>))
+				<option key={e} value={e}>{e}</option>))
 			}
 		</select>
 	)

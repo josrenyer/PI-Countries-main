@@ -4,8 +4,9 @@ import {useEffect, useState} from "react";
 import {useDispatch, useSelector} from "react-redux";
 import { getCountry } from "../../store/actions";
 import Pagination from "../Pagination/Pagination";
-import Action from "../Actions"
-import "./Cards.css"
+import "../Css/Cards.css"
+
+
 
 
 export default function Cards(){
@@ -14,10 +15,12 @@ export default function Cards(){
 	const dispatch = useDispatch()
 
 	const[currentPage, setCurrentPage]=useState(1);
-	const[countriesPerPage, setCountriesPerPage]=useState(9);
+	const countriesPerPage=9;
 	const indexOfLastCountries = currentPage * countriesPerPage;
 	const indexOfFirstCountries = indexOfLastCountries - countriesPerPage;
 	const currentCountries = allCountry.slice(indexOfFirstCountries,indexOfLastCountries);
+
+
 
 	const paginado=(pageNumber)=>{
 		setCurrentPage(pageNumber)
@@ -29,8 +32,7 @@ export default function Cards(){
 
 
 	return <div>
-		<Action/>
-		<Pagination allCountry={allCountry.length} countriesPerPage={countriesPerPage} paginado={paginado}/>
+		<Pagination setCurrentPage={setCurrentPage} currentPage={currentPage} allCountry={allCountry.length} countriesPerPage={countriesPerPage} paginado={paginado}/>
 
 		<div className="contenedorcartas">
 			{currentCountries.map((e)=>{

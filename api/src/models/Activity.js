@@ -16,8 +16,14 @@ module.exports = (sequelize) => {
     season:{
       type: DataTypes.ENUM('summer','autumn','winter','spring')
     },
-    precio:{
-      type: DataTypes.INTEGER
+    price:{
+      type: DataTypes.STRING
+    },
+    recommendation:{
+      type: DataTypes.TEXT
+    },
+    img:{
+      type: DataTypes.STRING
     }
   },
   {

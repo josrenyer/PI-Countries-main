@@ -3,10 +3,11 @@ import Search from "./SearchBar";
 import Order from "./Order";
 import FilterA from "./FilterActivity";
 import FilterC from "./FilterContinent";
-import "./action.css"
+import "../Css/Actions.css"
+
 
 export default function Action(){
-	return <div className="menu2">
+	return <div className="actions">
 		<Order/>
 		<Search/>
 		<FilterA/>

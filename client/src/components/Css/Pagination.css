@@ -1,0 +1,40 @@
+.paginacion{
+	width: 80%;
+	margin: 15px auto;
+}
+
+.paginado{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:center;
+	list-style: none;
+}
+
+.paginado li{
+	cursor: pointer;
+	padding: 5px;
+	text-align: center;
+	color: #0013FD;
+	border: 1px solid #0013FD;;
+	background-color: white;
+	font-size: 20px;
+	margin: 0 5px;
+}
+
+.paginado li.active{
+	background-color: #0013FD;
+	color: white;
+}
+
+.paginado li button{
+	background-color: transparent;
+	border: none;
+	color: #0013FD;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.paginado li button:hover{
+	background-color: #0013FD;
+	color: white;
+}

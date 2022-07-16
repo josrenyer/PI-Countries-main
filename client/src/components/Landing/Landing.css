@@ -1,46 +1,111 @@
-*{
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-}
-
-.inicio{
-	background-image: url(../Imagen/fondo1.jpg);
-	width: 100%;
-	height: 100vh;
+.contenedorLanding{
+	background-image: url(https://firebasestorage.googleapis.com/v0/b/react-firebase-auth-9a0c0.appspot.com/o/Fotos%2Flanding.png?alt=media&token=6a12ebdb-3de2-4c89-8623-a132efa9e6f7);
 	background-size: cover;
+	min-height: 100vh;
 	background-position: center;
+	position: relative;
 }
 
-.centrar{
-	font-family: cursive;
+
+.wave{
+	min-height: 100vh;
+	position: absolute;
+	right: 0;
 }
 
-.centrar h1{
-	padding: 290px;
+
+.iconos{
+	position: absolute;
+	margin-top: 20px;
+	right: 40px;
+}
+
+.text{
+	position: absolute;
+	top: 40%;
+	right: 5%;
+	font-family: sans-serif;
+	text-align: right;
+}
+
+.text h1{
 	font-size: 50px;
-	padding-bottom: 40px;
-	color: #13259C;
+	text-shadow: 2px 2px 4px #939E9F;
 }
 
-.centrar button{
-	padding: 20px;
-	border-radius: 10px;
-	background-color: #CACDE1;
-	font-size: 18px;
-	font-weight: bold;
+.text h4{
+	font-size: 25px;
+}
+
+.text button{
+	width: 200px;
+	font-size: 25px;
+	border-radius: 4px;
+	border: none;
+	padding: 15px 0;
+	background: #0013FD;
+	color: white;
+	margin-top: 30px;
 	cursor: pointer;
-	transition: all 0.3s ease;
-	color: #13259C;
 }
 
-.centrar button:hover{
-transform: translateY(-5px);
+.text button:hover{
+	transition: .3s;
+	color: #0013FD;
+	background: white;
+	border: 1px solid #0013FD ;
 }
 
-/*
-	background-repeat: no-repeat;
-  	background-size: cover;
-  	background-attachment: fixed;
-  	background-position: bottom center;
-*/
+
+{/*.iconos{
+	margin-top: 20px;
+	position: absolute;
+	right: 40px;
+}
+
+.iconos img{
+	cursor: pointer;
+}
+
+
+.text{
+	position: absolute;
+	top: 30%;
+	right: 0;
+	transform: translate(-50%, 50%);
+	font-family: sans-serif;
+	text-align: right;
+}
+
+.text h1{
+	font-size: 50px;
+	text-shadow: 2px 2px 4px #939E9F;
+}
+
+.text h4{
+	font-size: 25px;
+}
+
+.text button{
+	width: 200px;
+	font-size: 25px;
+	border-radius: 4px;
+	border: none;
+	padding: 15px 0;
+	background: #0013FD;
+	color: white;
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+.text button:hover{
+	transition: .3s;
+	color: #0013FD;
+	background: white;
+	border: 1px solid #0013FD ;
+}*/}
+
+
+
+
+

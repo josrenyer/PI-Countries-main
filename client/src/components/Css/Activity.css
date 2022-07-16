@@ -1,0 +1,53 @@
+.activity{
+	background-image: url(../Imagen/fondoActivity.png);
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 100vh;
+	background-position: center;
+	position: relative;
+	padding-bottom: 60px;
+}
+
+
+.containerForm{
+	width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    background-color: rgba(250, 250, 250, 0.5);
+}
+
+.containerForm div{
+	margin-top: 10px;
+}
+
+label{
+	margin-right: 5px;
+}
+
+.return button{
+	width: 100px;
+	margin-right: 20%;
+	font-size: 25px;
+	border-radius: 4px;
+	padding: 15px 0;
+	background: none;
+	color: #0013FD;
+	cursor: pointer;
+}
+
+.country{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.country div{
+	margin: 10px;
+}
+
+.country button{
+	width: 80%;
+	padding: 5px;
+}

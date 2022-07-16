@@ -1,0 +1,32 @@
+.CardActivity{
+	width: 80%;
+	margin: 10px auto 0 auto;
+}
+
+.title{
+	text-align: center;
+	margin: 10px 0;
+	font-size: 20px;
+	background-color: rgba(250, 250, 250, 0.5);
+}
+
+.CardContenidoActivity{
+	margin: 10px 0;
+	border: 1px solid black;
+	padding: 10px;
+	background-color: rgba(250, 250, 250, 0.5);
+}
+
+.CardContenidoActivity p{
+	margin-bottom: 10px;
+}
+
+.CardContenidoActivity img{
+	width: 50%;
+	height: auto;
+}
+
+.ActivityImg{
+	display: flex;
+	justify-content: center;
+}

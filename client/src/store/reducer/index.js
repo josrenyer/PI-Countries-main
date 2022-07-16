@@ -17,7 +17,7 @@ export default function reducer(state=initialState, action){
 		case 'SEARCH_COUNTRY':
 			return{
 				...state,
-				countries:action.payload
+				countries:action.payload,
 			}
 		case 'GET_DETAIL':
 			return{
@@ -101,15 +101,20 @@ export default function reducer(state=initialState, action){
 				...state,
 			}
 		case "GET_ACTIVITY":
+			let fil=action.payload.reduce((acc,item)=>{
+				if(!acc.includes(item.name)){
+          			acc.push(item.name);
+      			}
+      			return acc;
+			},[]);
 			return {
 				...state,
-				activities:action.payload
+				activities:fil
 			}
 		default:
 			return state;
 	}
  
 }
-
 
 		
