@@ -17,7 +17,7 @@
 
 ## Deploy
 
-[![](https://img.icons8.com/color/48/000000/launched-rocket--v1.png)](https://rick-and-morty-random-seven.vercel.app/) Front
+[![](https://img.icons8.com/color/48/000000/launched-rocket--v1.png)](https://deploy-front-countries.vercel.app/) Front
 
 [![](https://img.icons8.com/color/48/000000/launched-rocket--v1.png)](https://deploy-countries-jl.herokuapp.com/countries) Back
 
